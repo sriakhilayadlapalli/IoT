@@ -1,9 +1,0 @@
-void setup() {
-  pinMode(LEDBLINK, OUTPUT);  #Initilising LEDBLINK as output   
- 
-}
-void loop() {
-  digitalWrite(LEDBLINK, LOW); 
-  delay(1000);                      
-  digitalWrite(LEDBLINK, HIGH); 
-  delay(1000);        
